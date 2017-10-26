@@ -1,0 +1,59 @@
+#top {
+     background: url(otg.jpg);
+     position: fixed;
+     top: 0;
+     height: 600px; /* whatever the height of the background image is */
+     width: 100%;
+}
+
+#navbar ul {
+	margin: 0;
+	padding: 20px;
+  display:flex;
+  justify-content: space-around;
+	list-style-type: none;
+	text-align: center;
+	background-color: #000;
+	}
+
+
+#navbar ul li {
+	display: inline-flex;
+	}
+
+#navbar ul li a {
+  display: inline-flex;
+	text-decoration: none;
+  justify-content: space-around;
+  align-items: stretch;
+  width: 100%;
+	color: #fff;
+	background-color: #000;
+  border-radius: 5%;
+	}
+
+#navbar ul li a:hover {
+	color: #000;
+	background-color: black;
+  transition-duration: 1s;
+  overflow: hidden;
+  transform: translateY(100px) scale(3.1) ;
+  margin: 0;
+  padding: 0;
+  filter: blur(0px);
+  }
+
+#navbar ul:hover a{
+  filter: blur(10px) opacity(.5);
+}
+
+	}
+
+#btn:hover {
+  filter:contrast(200%);
+}
+
+
+footer {
+  align-items: bottom;
+}
